@@ -6,6 +6,7 @@ public class CamelCase
   {
     Scanner sc=new Scanner(System.in);
     String str=sc.nextLine();
+    count=0;
     char arr[]=str.toCharArray();
     for(int j=0;j<arr.length;j++)
     {
