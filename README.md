@@ -15,6 +15,6 @@ public class CamelCase
            arr[i+1]=Character.toUpperCase(arr[i+1]);
      }
      for(int j=0;j<arr.length;j++)
-     System.out.println("CAMEL CASE:"+arr[j]);
+     System.out.print("CAMEL CASE:"+arr[j]);
     }
    }
