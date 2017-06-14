@@ -8,11 +8,11 @@ public class CamelCase
     System.out.println("ENTER A STRING:");
     String str=sc.nextLine();
     char arr[]=str.toCharArray();
-    arr[0]=arr[0].toUpperCase();
+    arr[0]=Character.toUpperCase(arr[0]);
     for(int i=0;i<arr.length;i++)
     {
       if(arr[i]==' ')
-           arr[i+1]=arr[i+1].toUpperCase();
+           arr[i+1]=Character.toUpperCase(arr[i+1]);
      }
      for(int j=0;j<arr.length;j++)
      System.out.println("CAMEL CASE:"+arr[j]);
