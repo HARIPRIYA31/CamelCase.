@@ -7,7 +7,7 @@ public class CamelCase
     Scanner sc=new Scanner(System.in);
     System.out.println("ENTER A STRING:");
     String str=sc.nextLine();
-    Char arr[]=str.toCharArray();
+    char arr[]=str.toCharArray();
     arr[0]=arr[0].toUpperCase();
     for(int i=0;i<arr.length;i++)
     {
