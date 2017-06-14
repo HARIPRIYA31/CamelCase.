@@ -13,7 +13,7 @@ public class CamelCase
     if(Character.isLetter(arr[j]) || Character.isWhitespace(arr[j]))
       count++;
      }
-     if(count==arr.length-1)
+     if(count==arr.length)
      {
     arr[0]=Character.toUpperCase(arr[0]);
     for(int i=0;i<arr.length;i++)
