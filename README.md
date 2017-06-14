@@ -9,7 +9,7 @@ public class CamelCase
     char arr[]=str.toCharArray();
     for(int j=0;j<arr.length;j++)
     {
-    if(Character.isLetter(arr[j])
+    if(Character.isLetter(arr[j]))
       count++;
      }
      if(count==arr.length-1)
